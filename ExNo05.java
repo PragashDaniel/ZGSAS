@@ -32,7 +32,7 @@ public class ExNo05
         }
         for(int i=0;i<refString.length();i++)
         {
-            System.out.println(str.charAt(i)+" = "+map.get(refString.charAt(i)));
+            System.out.println(refString.charAt(i)+" = "+map.get(refString.charAt(i)));
         }
     }
 }
