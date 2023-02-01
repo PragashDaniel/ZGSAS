@@ -12,7 +12,7 @@ import java.util.HashMap;
  *
  * @author DP
  */
-public class ExNo02 
+public class ExNo2 
 {
     public static void main(String[] args) 
     {
