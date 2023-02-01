@@ -31,10 +31,11 @@ public class ExNo01
             {
                 stack.push(str.charAt(i));continue;
             }
-            if(str.charAt(i)==')')
+            if(str.charAt(i)==')' && !stack.isEmpty())
             {
                 stack.pop();continue;
             }
+            else{return false;}
             if(str.charAt(i)>=97 && str.charAt(i)<125 && check==0)
             {
                 stack.push(str.charAt(i));
