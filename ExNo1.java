@@ -11,7 +11,7 @@ import java.util.Stack;
  *
  * @author DP
  */
-public class ExNo01 
+public class ExNo1 
 {
     public static void main(String[] args) 
     {
