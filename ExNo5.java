@@ -11,7 +11,7 @@ import java.util.HashMap;
  *
  * @author DP
  */
-public class ExNo05 
+public class ExNo5 
 {
     public static void main(String[] args) 
     {
