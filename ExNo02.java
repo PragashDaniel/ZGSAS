@@ -48,7 +48,43 @@ public class ExNo02
                 System.out.print(subArrays.get(i)+" ");
         }
     }
+    
+  
+	static int find(int arr[],int n)
+	{
+	    int leftSum = 0;
+	
+	    for (int i = 0 ; i < n ; i++)
+		    leftSum += arr[i];
+	    int rightSum = 0;
+	    for (int i = n-1; i >= 0; i--)
+        {
+		    rightSum += arr[i];
+            leftSum -= arr[i] ;
+		    if (rightSum == leftSum)
+			    return i ;
+	}
+	return 0;
+	}
 
+	static void sumSubArrays(int arr[], int n)
+	{
+		int split = find(arr, n);
+		if (split == -1 || split == n )
+		{
+			System.out.println("Not Possible" );
+			return;
+		}
+		for (int i = 0; i < n; i++)
+		{
+			if(splitPoint == i)
+				System.out.println();
+			System.out.print(arr[i] + " ");
+		}
+	}
+
+
+}
     
     
         
