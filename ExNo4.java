@@ -1,4 +1,4 @@
-class ExNo04
+class ExNo4
 {
     public static void main(String[] args) 
     {
